@@ -76,5 +76,61 @@ Agar humein page ke **saare elements** ko ek saath select karke koi style dena h
 
 ## 🔗 HTML Tags Info
 - **`<a>` Tag:** Iska matlab hai **Anchor Tag**. Ye ek website se doosri website ya ek page se doosre page par jane ke liye links banane ke kaam aata hai.
+---
 
-> **Note:** Let's get coding! 💻
+# 🎨 Properties in CSS
+
+Ye notes aapko basic styling aur text formatting mein madad dein ge.
+
+---
+
+  
+###  1.🌈 Colors
+CSS mein color dene ke mukhtalif tarike hain:
+```css
+*   **Names**: `red`, `blue`, `hotpink`.
+*   **Hex**: `#ffffff` (White), `#000000` (Black).
+*   **RGB**: `rgb(255, 255, 255)`.
+*   **RGBA**: `rgba(0, 0, 0, 0.5)` (Is se rang ko transparent/halka kiya ja sakta hai).
+```
+---
+
+### 2. 🖼️ Background Styling
+Background ko control karne ki properties:
+```css
+*   **`background-color`**: Element ke piche rang bharne ke liye.
+    > `background-color: yellow;`
+*   **`background-image`**: Piche photo lagane ke liye.
+    > `background-image: url('image.jpg');`
+*   **Helper Properties**:
+    *   `background-size: cover;` (Photo ko poori jagah par fit karta hai).
+    *   `background-repeat: no-repeat;` (Photo ko baar baar repeat hone se rokta hai).
+```
+---
+
+### 3. 📝 Text Formatting & Styling
+Text ki look aur position set karne ke liye:
+```css
+*   **Text Color**:
+    *   `color: blue;` (Sirf likhay huye text ka rang badalta hai).
+*   **Text Alignment**:
+    *   `text-align: center;` (Text ko darmiyan mein lane ke liye).
+    *   `text-align: right;` (Right side ke liye).
+    *   `text-align: left;` (Default left side).
+*   **Text Transform** (Likhai ka style):
+    *   `text-transform: uppercase;` (Saray letters BADE karne ke liye).
+    *   `text-transform: lowercase;` (Saray letters chote karne ke liye).
+    *   `text-transform: capitalize;` (Har word ka pehla letter bada karne ke liye).
+```
+---
+
+### 4. 🔡 Fonts (Likhai ka Design)
+*   **`font-family`**: Font ka naam (e.g., `'Arial'`, `'Poppins'`, `sans-serif`).
+*   **`font-size`**: Text kitna bada dikhega (e.g., `20px`, `2rem`).
+*   **`font-weight`**: Text ko kitna mota (bold) karna hai (e.g., `bold`, `400`, `700`).
+*   **`font-style`**: Text ko teercha karne ke liye (`italic`).
+
+---
+
+
+

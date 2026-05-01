@@ -5,46 +5,54 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Payment Form</title>
+    <link rel="stylesheet" href="style.css">
+
 </head>
 
 <body>
-    <form action="">
-        <h1>Payment Form</h1>
-        <p>Required Field are followed by *</p>
-        <h2>Contact Information</h2>
-        <p>Name: *<input type="text" name="name" required></p>
-        <fieldset>
-            <legend>Gender *</legend>
-            <p>
-                Male  <input type="radio" name="gender" id="male required">female <input type="radio" name="gender" id="female required">
-
+    <div class="container">
+        <form action="">
+            <h1 class="main_heading">Payment Form</h1>
+            <p>Required Field are followed by *</p>
+            <h2>Contact Information</h2>
+            <p>Name: *
+                <input type="text" required name="name" placeholder="Neha Tosheeq">
             </p>
-        </fieldset>
-        <p>Address: <textarea name"address" id="address" cols="100" rows="8"></textarea>
-        </p>
-        <p>Email: * <input type="email" name="email" id="email required"></p>
-        <p>Pincode: * <input type="number" name="pincode" id="pincode required"></p>
-        <hr>
-        <h1>Payment Information</h1>
-        <p>Card Type: *
-            <select name="card_type" id="">card_type required
-                <option value="">--Select a card type--</option>
-                <option value="vica">Vica</option>
-                <option value="rupay">Rupay</option>
-                <option value="mastercard">Mastercard</option>
-            </select>
-        </p>
-        <p>
-            Card Nmumber  *<input type="number" name="card_number" id="card_number required">
-        </p>
-        <p>
-            Expiration Date: * <input type="date" name="exp_date" id="exp_date required">
-        </p>
-        <p>CVV * <input type="password" name="cvv" id="cvv required"></p>
-        <input type="submit" value="Pay Now">
+            <fieldset>
+                <legend>Gender *</legend>
+                <p>
+                    Male <input type="radio" name="gender" id="male required">female <input type="radio" name="gender"
+                        id="female required">
 
-    </form>
+                </p>
+            </fieldset>
+            <p>Address: <textarea name"address" id="address" cols="100" rows="8"
+                    placeholder="Enter your full address"></textarea>
+            </p>
+            <p>Email: * <input type="email" name="email" id="email required" placeholder="example@gmail.com"></p>
+            <p>Pincode: * <input type="number" name="pincode" id="pincode required" placeholder="123456"></p>
+            <hr>
+            <h2>Payment Information</h2>
+            <p>Card Type: *
+                <select name="card_type" id="">card_type required
+                    <option value="">--Select a card type--</option>
+                    <option value="vica">Vica</option>
+                    <option value="rupay">Rupay</option>
+                    <option value="mastercard">Mastercard</option>
+                </select>
+            </p>
+            <p>
+                Card Nmumber *<input type="number" name="card_number" id="card_number required"
+                    placeholder="1111-2222-3333-4444">
+            </p>
+            <p>
+                Expiration Date: * <input type="date" name="exp_date" id="exp_date required">
+            </p>
+            <p>CVV * <input type="password" name="cvv" id="cvv required" placeholder="123"></p>
+            <input type="submit" value="Pay Now">
 
+        </form>
+    </div>
 </body>
 
 </html>

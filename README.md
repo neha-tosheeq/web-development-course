@@ -131,6 +131,84 @@ Text ki look aur position set karne ke liye:
 *   **`font-style`**: Text ko teercha karne ke liye (`italic`).
 
 ---
+# 📕 Understanding Box Model(L3)
+ ## 📋 Document Object Model (DOM)
+ ### *`Parent`* -> *`Child`* -> *`Siblings`*
+ 
+| HTML Side | Action | CSS Side |
+| :--- | :---: | :--- |
+| Load HTML | ➔ | Load CSS |
+| Parse HTML | ➔ | Parse CSS |
+| **DOM Tree** | ➔ | **Attach Style** |
+| | **DISPLAY** | |
+|
+# 🎲 Units in CSS
+- A CSS Unites determined the size of a property you's setting for an element or its content.
+---
+## Types:
+1. Relative
+2. Absolute
+---
+### Relative Units:
+- Relative length Units are related to something else,Perhaps the size of the parent element's font or the size of the viewport.
+
+
+Relative length units kisi doosri cheez (jaise parent element ya viewport) ke mutabiq size set karti hain.
+
+
+### 🔹 Important Relative Units
+
+*   **`%` (Percentage)**: Ye apne **parent element** ke size ke mutabiq hota hai.
+*   **`em`**: Ye us element ke **apne font-size** ke mutabiq hota hai (e.g., 2em ka matlab hai font-size se double).
+*   **`rem`**: Ye **Root element** (`<html>`) ke font-size ke mutabiq hota hai.
+*   **`vw` (Viewport Width)**: Viewport (screen) ki chorai ka 1%.
+*   **`vh` (Viewport Height)**: Viewport (screen) ki lambai ka 1%.
+*   **`vmin`**: Viewport ki choti dimension (width ya height mein se jo chota ho) ka 1%.
+*   **`vmax`**: Viewport ki badi dimension ka 1%.
+
+---
+### Absolute Unit:
+
+- Absolute units wo fixed units hoti hain jo screen size ya parent element ke mutabiq change nahi hotin. Ye hamesha utni hi rehti hain jitni aapne likhi hon.
+
+
+### 🔹 List of Absolute Units
+
+*   **`px` (Pixels)**: Sab se zyada use hone wali unit. (1px = 1/96th of 1 inch).
+*   **`cm` (Centimeters)**: 1cm = 96px / 2.54.
+*   **`mm` (Millimeters)**: 1mm = 1/10th of 1cm.
+*   **`in` (Inches)**: 1in = 96px = 2.54cm.
+*   **`pt` (Points)**: Zyada tar printing mein kaam aata hai. (1pt = 1/72 of 1 inch).
+*   **`pc` (Picas)**: 1pc = 12pt.
+
+---
+# 📤 Box Model
+```css
+1. Content Aera (Text).
+2. Padding (Top,Right,Left,Button). 
+    -> Content ka Surrounding Space. 
+    -> Include background Colour.
+    -> Fixed Don't Change the background Colour.
+3. Border (Top,Right,Left,Button). 
+    -> Include background Colour.
+4. Margin (Top,Right,Left,Button). 
+   -> Don't Include background. Colour.
+```
+---
+
+
+
+
+
+
+
+
+
+
+
+
+            
+
 
 
 

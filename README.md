@@ -2,8 +2,7 @@
 
 # Selector   
 
-                
-## 🛠️ Syntax of CSS
+## 🛠️ Syntax of Selector
 CSS mein hum **Property** aur **Values** ka istemal karte hain.
 - **Property:** Jo feature change karna ho (e.g. `color`).
 - **Value:** Jo tabdeeli lani ho (e.g. `green`).
@@ -192,6 +191,34 @@ Relative length units kisi doosri cheez (jaise parent element ya viewport) ke mu
    -> Don't Include background. Colour.
 ```
 ---
+
+## 📘 CSS Core Concepts (L4)
+
+Browser CSS ko teen main cheezon ki bunyaad par apply karta hai:
+
+### 1. Cascading 🌊
+CSS ka matlab hi **Cascading Style Sheets** hai. Iska asool ye hai ke agar do rules aik hi element ke liye hon, to jo **sab se aakhir mein** likha hoga, wahi apply hoga.
+
+### 2. Specificity ⚖️ (Power Scale)
+Agar rules alag alag jagah likhay hon, to browser "Power" check karta hai:
+- **(0,1,0,0) ID Selector (`#header`):** Sab se zyada power.
+- **(0,0,1,0) Class Selector (`.heading`):** Darmiyani power.
+- **(0,0,0,1) Tag Selector (`h1`):** Sab se kam power.
+
+->   Ye sab scores ko maat de deta hai aur apna style apply karwata hai.
+
+### 3. Inheritance (Wirasat) 👨‍👩‍👧
+Child elements apne parents ki properties (jaise `color`) hasil karte hain. Inhein control karne ke liye ye keywords use hote hain:
+- `initial`: Default browser value par le jata hai.
+- `inherit`: Parent ki value hasil karne par majboor karta hai.
+- `unset`: Property ko uski natural state par le jata hai.
+
+---
+
+
+
+
+
 
 
 
